@@ -1,8 +1,9 @@
 # Site settings
-title: ConsultantDev
-description: SEO-first websites that Google can understand
+title: ebiya.sg
+description: "Specialist Caridina shrimp tanks, shrimp care guides, and premium shrimp products in Singapore."
+tagline: "Premium Caridina shrimp care and specialist shrimp tanks in Singapore"
 image: "/assets/images/ebiya-logo.webp"
-url: "https://consultant.ebiya.sg"
+url: ""
 baseurl: ""
 
 # SEO
@@ -20,11 +21,12 @@ business:
     addressLocality: "Singapore"
     postalCode: "390051"
     addressCountry: "SG"
-  url: "https://consultant.ebiya.sg/"
+  url: ""
   
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemaps
+  - jekyll-last-modified-at
   
 # Analytics
 #google_analytics: "G-XXXXXXXXXX"  # Your GA4 Measurement ID
