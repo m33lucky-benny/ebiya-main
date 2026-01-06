@@ -3,8 +3,9 @@ title: ebiya.sg
 description: "Specialist Caridina shrimp tanks, shrimp care guides, and premium shrimp products in Singapore."
 tagline: "Premium Caridina shrimp care and specialist shrimp tanks in Singapore"
 image: "/assets/images/ebiya-logo.webp"
-url: ""
-baseurl: ""
+
+url: "https://m33lucky-benny.github.io"
+baseurl: "/ebiya-main"
 
 # SEO
 author: ebiyaSG
