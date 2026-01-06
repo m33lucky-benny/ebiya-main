@@ -2,10 +2,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  
-  <!-- Preconnect to Google Fonts -->
+
+  <!-- Preconnect to Google Fonts for faster loading -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Google Fonts: Montserrat (loaded immediately, no JS fallback needed) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Google Search Console -->
   <meta name="google-site-verification" content="ULsSS9SW0O2t0d76FM20iITO83i9vbTNtTVclZiV7mM">
@@ -33,25 +36,6 @@
   <noscript>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   </noscript>
-
-  <!-- Google Fonts fallback (loads if local font not available) -->
-  <script>
-    (function () {
-      if (!('fonts' in document)) return;
-
-      Promise.race([
-        document.fonts.load('1em "Montserrat"'),
-        new Promise(function (r) { setTimeout(r, 800); })
-      ]).then(function (res) {
-        if (res && res.length) return;
-
-        var l = document.createElement('link');
-        l.rel = 'stylesheet';
-        l.href = 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap';
-        document.head.appendChild(l);
-      });
-    })();
-  </script>
 
   <!-- GA4 (delayed until interaction) -->
   <script>
