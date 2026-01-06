@@ -1,13 +1,30 @@
-# consultant.ebiya.sg - SEO & Website Services Singapore
+---
+permalink: /llms.txt
+layout: null
+---
 
-## Homepage
-Discover free diagnostic tools and our SEO consulting services.
-https://consultant.ebiya.sg/
+# ebiya.sg
 
-## Services
-Test your site speed/SEO issues free, then get expert fixes.
-https://consultant.ebiya.sg/services/
+> Singapore-based Caridina shrimp and shrimp tank systems site. Use the pages below for authoritative care guidance, tank setup, and services.
 
-## Contact
-Get a free audit quote for Singapore businesses.
-https://consultant.ebiya.sg/contact/
+## Key pages
+- [Home](https://ebiya.sg/): Overview of ebiya.sg and core offerings.
+- [Blog](https://ebiya.sg/blog/): Articles on Caridina shrimp care and tank building.
+- [Shrimp](https://ebiya.sg/shrimp/): Shrimp-related hub page.
+- [Singapore Caridina Shrimp](https://ebiya.sg/singapore-caridina-shrimp/): Local landing page for Caridina shrimp in Singapore.
+- [Tank Builder](https://ebiya.sg/tank-builder/): Interactive tank planning tool.
+- [Membership](https://ebiya.sg/membership/): Membership offering.
+- [FAQ](https://ebiya.sg/faq/): Common questions and answers.
+- [Contact](https://ebiya.sg/contact/): How to reach ebiya.sg.
+- [About](https://ebiya.sg/about/): About ebiya.sg.
+
+## Popular guides
+- [Best aquarium setup for Caridina shrimp](https://ebiya.sg/2025-03-01-best-aquarium-setup-for-caridina-shrimp/).
+- [Best Caridina shrimp tank](https://ebiya.sg/2025-05-21-best-caridina-shrimp-tank/).
+- [Shrimp tank water parameters (Singapore)](https://ebiya.sg/2025/12/21/shrimp-tank-water-parameters-singapore/).
+- [7 shrimp tank accessories that matter](https://ebiya.sg/7-shrimp-tank-accessories-that-actually-matter/).
+- [Calibrate pH test pen](https://ebiya.sg/calibrate-ph-test-pen/).
+
+## Optional
+- [Sitemap](https://ebiya.sg/sitemap.xml): Complete crawlable URL list.
+
