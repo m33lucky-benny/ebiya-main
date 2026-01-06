@@ -28,8 +28,8 @@
     z-index: 101;
     order: 1;
 
-    .brand-kieron { color: $brand-kieron1; }
-    .brand-play { color: $brand-kieron2; }
+    .brand-kieron { color: var(--text); }
+    .brand-play { color: var(--primary); }
   }
 
   /* Hamburger */
