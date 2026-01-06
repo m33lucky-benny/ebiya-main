@@ -8,3 +8,12 @@ Disallow: /.git/
 
 # Allow sitemaps
 Sitemap: https://m33lucky-benny.github.io/ebiya-consul/sitemap.xml
+
+# ---
+# permalink: /robots.txt
+# layout: null
+# ---
+$ User-agent: *
+# Allow: /
+
+# Sitemap: https://ebiya.sg/sitemap.xml
