@@ -240,3 +240,12 @@ body, .navbar, .navbar-brand, .nav-link {
     max-width: 600px;
   }
 }
+
+main a:not(.btn) {
+  color: var(--secondary);
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--secondary-hover);
+  }
+}
