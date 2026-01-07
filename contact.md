@@ -3,7 +3,6 @@ layout: page
 title: Contact ebiya.sg | Shrimp Tank Consultation Singapore
 description: Get in touch with ebiya.sg for Caridina shrimp tank consultations, custom breeding systems, and expert support in Singapore. Fast response guaranteed..
 permalink: /contact/
-hide_title: true
 ---
 
 <div class="contact-wrap">
