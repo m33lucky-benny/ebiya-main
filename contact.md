@@ -8,8 +8,8 @@ permalink: /contact/
 <div class="contact-wrap">
    <!-- SEO H1 -->
   <h1 class="hero-title">
-    Caridina Shrimp Tank Systems </br> Singapore | ebiya.sg
-  </h1>
+    Caridina Shrimp Tank Systems </h1><h2>Singapore | ebiya.sg</h2> 
+  
   <div class="contact-intro">
      <p>Have questions about our Caridina shrimp or custom aquarium tanks? We'd love to hear from you! Fill out the form below or connect with us on social media.</p>
   
