@@ -205,13 +205,14 @@ body, .navbar, .navbar-brand, .nav-link {
 }
 
 // ----------------------------------------
-// sub content below main content
+// sub content below main content, border: 1px dotted var(--border); // thin dotted border
 // ----------------------------------------
 
 .hero-below-main {
   background-color: var(--dark1);
   color: var(--text);
-  border: 1px dotted var(--border); // thin dotted border
+  border: 2px dotted #FFD700; 
+  
   border-radius: 10px;
   padding: 1rem 2rem;
 
