@@ -204,3 +204,32 @@ body, .navbar, .navbar-brand, .nav-link {
   font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
+// ----------------------------------------
+// sub content below main content
+// ----------------------------------------
+.hero-below-main {
+  background-color: var(--dark1);
+  color: var(--text);
+  padding: 4rem 2rem;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__logo {
+    width: 160px;
+    margin-bottom: 1rem;
+  }
+
+  &__tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    max-width: 600px;
+  }
+}
+
