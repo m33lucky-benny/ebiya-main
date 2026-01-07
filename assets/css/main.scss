@@ -228,12 +228,13 @@ body, .navbar, .navbar-brand, .nav-link {
 
   &__logo {
     width: 160px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   &__tagline {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    margin-top: 0; /* remove extra space if any */
     max-width: 600px;
   }
 }
