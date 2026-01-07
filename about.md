@@ -1,55 +1,70 @@
 ---
-layout: default
-title: Markdown Cheatsheet
-description: Complete Markdown reference for Jekyll & GitHub Pages
+layout: page
+title: "About ebiyaSG – Singapore Caridina Shrimp Specialist & Custom Tank Builder"
 permalink: /about/
+description: "Professional Caridina shrimp breeder in Singapore specializing in BOA, GALAXY, and BLUE KING KONG varieties. Custom breeding tanks designed for maximum shrimplet survival rates near Old Airport Road."
+author: ebiyaSG
+image: /assets/images/green-tiger.png
+keywords:
+  - caridina shrimp Singapore
+  - shrimp breeder Singapore
+  - custom shrimp tank
+  - BOA shrimp
+  - GALAXY shrimp
+  - BLUE KING KONG shrimp
+  - caridina breeding
+  - shrimp tank builder
+  - high-grade caridina
+  - Singapore aquarium
+  - shrimplet survival
+  - Old Airport Road
 ---
 
-# Markdown Cheatsheet (Jekyll + GitHub Pages)
+# About ebiya.SG
 
-## Headings
-# H1 – Page title (usually from front matter)
-## H2 – Section
-### H3 – Sub-section
-#### H4
-##### H5
-###### H6
+ebiyaSG is a Singapore-based Caridina shrimp specialist and custom tank builder dedicated to helping shrimp keepers succeed where others struggle.
 
-## Text Formatting
-**Bold**  
-*Italic*  
-***Bold + Italic***  
-~~Strikethrough~~  
-`Inline code`
+## From Hobby to Expertise
 
-## Paragraphs & Line Breaks
-This is a paragraph.
+What started as a personal passion in 2018 has evolved into a professional breeding operation built on years of hands-on experience. As a solo-run business partnered with a skilled tank-building team, ebiyaSG combines the precision of specialist breeding with the practical knowledge gained from countless trial-and-error cycles. Located conveniently near Old Airport Road Food Centre, the operation focuses on what truly matters: keeping shrimp alive and breeding consistently.
 
-This is another paragraph.
+## What We Offer
 
-This is a line break  
-(two spaces at the end)
+### Premium Caridina Shrimp
 
-## Lists
-### Unordered
-- Item one
-- Item two
-  - Sub item
+ebiyaSG specializes in high-grade Caridina varieties bred for health and stability:
 
-### Ordered
-1. First
-2. Second
-3. Third
+- **BOA** - Bold, distinctive patterns
+- **GALAXY** - Striking celestial markings  
+- **BLUE KING KONG** - Vibrant blue coloration
 
-## Links
-[External link](https://example.com)  
-[Internal link]({{ "/contact/" | relative_url }})
+All shrimp are bred in-house using the same tank systems available to customers, ensuring proven performance under Singapore conditions.
 
-## Images
-![Alt text](/assets/img/example.png)  
-![Alt text](/assets/img/example.png "Optional title")
+### Custom Breeding Tanks
 
-## Blockquotes
-> This is a quote  
->> Nested quote
+Two meticulously designed tank sizes engineered specifically to maximize shrimplet survival rates:
 
+- **60×30cm** - Recommended for beginners due to higher water stability
+- **45×30cm** - Compact option for experienced keepers
+
+These aren't aesthetic showpieces—they're functional breeding systems designed from a breeder's perspective. For detailed explanations of the design philosophy and engineering principles, customers are encouraged to explore the comprehensive guides available on the [blog](/blog/).
+
+## How We Serve You
+
+**In-Store Pickup** is the preferred collection method, allowing for personal consultation and quality assurance. **VIP Gold members** enjoy delivery privileges as part of their membership benefits. **Shipping** options are available upon inquiry for those outside the immediate area.
+
+## Why ebiyaSG Exists
+
+Every shrimp keeper has experienced the frustration of unexplained deaths, failed molts despite "perfect" parameters, and conflicting advice from forums. ebiyaSG was built by someone who lived through those exact struggles and emerged with solutions that actually work.
+
+The mission is simple: help new shrimp keepers avoid the expensive mistakes and discouragement that drive so many out of the hobby. Every tank design, product recommendation, and piece of guidance stems from real breeding experience—not theory or aesthetics. The focus is unwavering: **functionality that keeps shrimplets alive and colonies thriving**.
+
+Caridina shrimp aren't fragile—they require precision, patience, and the right system. ebiyaSG provides exactly that.
+
+---
+
+## Get Started
+
+Ready to begin your Caridina shrimp journey? [Browse our available shrimp](/shrimp/) or [explore our custom tank systems](/tank-builder/).
+
+For personalized advice and priority access to new stock, consider joining our [VIP Membership program](/membership/).
