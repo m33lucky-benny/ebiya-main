@@ -249,3 +249,8 @@ main a:not(.btn) {
     color: var(--secondary-hover);
   }
 }
+
+.contact-wrap > h1,
+.contact-wrap > h2 {
+  text-align: center;
+}
