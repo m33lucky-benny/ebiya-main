@@ -207,10 +207,15 @@ body, .navbar, .navbar-brand, .nav-link {
 // ----------------------------------------
 // sub content below main content
 // ----------------------------------------
+
 .hero-below-main {
   background-color: var(--dark1);
   color: var(--text);
+  border: 1px dotted var(--border); // thin dotted border
+  border-radius: 10px;
   padding: 1rem 2rem;
+}
+
 
   &__container {
     max-width: 1200px;
