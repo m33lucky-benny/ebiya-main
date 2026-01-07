@@ -22,9 +22,17 @@ social:
   email: "mailto:bennyyuen@consultant.com"
 
 nav_items:
-  - title: Home
-    url: /
-  - title: Services
+  - title: About Us
+    url: /about
+  - title: Quick Help
     url: /services
+  - title: Gallery
+    url: /contact
+  - title: Tank Builder
+    url: /
+  - title: Blog
+    url: /services
+  - title: Membership
+    url: /contact
   - title: Contact Us
     url: /contact
