@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About ebiyaSG – Singapore Caridina Shrimp Specialist & Custom Tank Builder"
+title: "Singapore Caridina Shrimp Specialist & Custom Tank Builder"
 permalink: /about/
 description: "Professional Caridina shrimp breeder in Singapore specializing in BOA, GALAXY, and BLUE KING KONG varieties. Custom breeding tanks designed for maximum shrimplet survival rates near Old Airport Road."
 author: ebiyaSG
