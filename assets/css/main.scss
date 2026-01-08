@@ -250,17 +250,17 @@ main a:not(.btn) {
   }
 }
 
+main p {
+  text-align: justify;
+  text-align-last: left;
+}
+
 .contact-wrap > h1,
 .contact-wrap > h2 {
   text-align: center;
 }
 
 .contact-intro p {
-  text-align: justify;
-  text-align-last: left; /* Prevents the last line from being justified */
-}
-
-.hero-subtitle, .seo-booster {
   text-align: justify;
   text-align-last: left; /* Prevents the last line from being justified */
 }
