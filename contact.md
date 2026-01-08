@@ -6,8 +6,13 @@ permalink: /contact/
 ---
 <div class="contact-wrap">
   <div class="contact-intro">
+  .contact-intro p {
+  text-align: justify;
+  text-align-last: left; /* Prevents the last line from being justified */
+
+
      <p>Have questions about our Caridina shrimp or custom aquarium tanks? We'd love to hear from you! Fill out the form below or connect with us on social media.</p>
-  
+  }
 
     <p class="contact-note">
       Fields marked <span class="required" aria-hidden="true">*</span>
