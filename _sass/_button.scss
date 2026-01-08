@@ -19,44 +19,47 @@
   align-items: center;
   justify-content: center;
 
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.25rem;
   min-height: 48px;
 
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
 
-  border-radius: 8px; // pill shape
+  border-radius: 8px; // modern pill
   transition: all 0.2s ease;
 
   @media (max-width: 768px) {
-    width: 80%;          // full-width on mobile
-    font-size: 1.05rem;   // slightly bigger tap target
+    width: 80%;
+    font-size: 1.05rem;
   }
 }
 
+/* 🔥 Primary CTA */
 .btn-primary {
-  background: #0ea5e9; // shrimp-water blue
-  color: #ffffff;
+  background: var(--primary);
+  color: var(--dark1);
 
-  box-shadow: 0 6px 18px rgba(14, 165, 233, 0.35);
+  box-shadow: 0 6px 20px rgba(255, 16, 240, 0.35);
 
   &:hover {
-    background: #0284c7;
+    background: var(--secondary);
     transform: translateY(-1px);
-    box-shadow: 0 10px 24px rgba(14, 165, 233, 0.45);
+    box-shadow: 0 10px 28px rgba(255, 0, 110, 0.45);
   }
 }
 
+/* ✨ Secondary / Ghost CTA */
 .btn-ghost {
   background: transparent;
-  color: #0ea5e9;
+  color: var(--primary);
 
-  border: 2px solid rgba(14, 165, 233, 0.4);
+  border: 2px solid rgba(255, 16, 240, 0.45);
 
   &:hover {
-    background: rgba(14, 165, 233, 0.08);
-    border-color: #0ea5e9;
+    background: rgba(255, 16, 240, 0.08);
+    border-color: var(--primary);
+    color: var(--text);
   }
 }
 
