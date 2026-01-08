@@ -44,7 +44,7 @@
   &:hover {
     background: var(--primary);//#0284c7;
     transform: translateY(-1px);
-    box-shadow: 0 10px 24px rgba(14, 165, 233, 0.45);
+    box-shadow: 0 10px 24px var(--secondary);//rgba(14, 165, 233, 0.45);
   }
 }
 
@@ -55,7 +55,7 @@
   border: 2px solid rgba(14, 165, 233, 0.4);
 
   &:hover {
-    background: rgba(14, 165, 233, 0.08);
+    background: var(--secondary);//rgba(14, 165, 233, 0.08);
     border-color: var(--primary);//#0ea5e9;
   }
 }
