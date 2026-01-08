@@ -34,3 +34,22 @@
   max-width: 280px;
 }
 
+/* Ghost button (outlined) */
+.btn-ghost,
+a.btn-ghost,
+button.btn-ghost {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--primary);
+  box-shadow: none;
+}
+
+.btn-ghost:hover,
+a.btn-ghost:hover {
+  background: rgba(255, 16, 240, 0.15);
+  color: var(--primary);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
