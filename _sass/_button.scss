@@ -1,7 +1,7 @@
 .cta-row {
   display: flex;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 
   /* Desktop */
   flex-direction: row;
@@ -19,45 +19,44 @@
   align-items: center;
   justify-content: center;
 
-  padding: 0.5rem 1rem;
+  padding: 0.9rem 1.4rem;
   min-height: 48px;
 
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
 
-  border-radius: 8px; // pill shape
+  border-radius: 999px; // pill shape
   transition: all 0.2s ease;
 
   @media (max-width: 768px) {
-    width: 80%;          // full-width on mobile
+    width: 100%;          // full-width on mobile
     font-size: 1.05rem;   // slightly bigger tap target
   }
 }
 
 .btn-primary {
-  background: var(--secondary);//#0ea5e9; // shrimp-water blue
+  background: #0ea5e9; // shrimp-water blue
   color: #ffffff;
 
   box-shadow: 0 6px 18px rgba(14, 165, 233, 0.35);
 
   &:hover {
-    background: var(--primary);//#0284c7;
+    background: #0284c7;
     transform: translateY(-1px);
-    box-shadow: 0 10px 24px var(--secondary);//rgba(14, 165, 233, 0.45);
+    box-shadow: 0 10px 24px rgba(14, 165, 233, 0.45);
   }
 }
 
 .btn-ghost {
   background: transparent;
-  color: #ffffff//var(--secondary);//#0ea5e9;
+  color: #0ea5e9;
 
-  //border: 2px solid rgba(14, 165, 233, 0.4);
-  border: 2px solid rgb(14, 165, 233);
+  border: 2px solid rgba(14, 165, 233, 0.4);
 
   &:hover {
-    background: var(--primary);//rgba(14, 165, 233, 0.08);
-    border-color: var(--primary);//#0ea5e9;
+    background: rgba(14, 165, 233, 0.08);
+    border-color: #0ea5e9;
   }
 }
 
@@ -68,4 +67,3 @@
     justify-content: center;
   }
 }
-
