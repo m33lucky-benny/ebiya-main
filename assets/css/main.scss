@@ -91,6 +91,14 @@ footer p {
   text-align: center;
 }
 
+.post-title {
+  text-align: center;
+  max-width: 100%; //1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem; // first number top and bottom, second number ;eft and right
+
+}
+
 // ----------------------------------------
 // Contact form button
 // ----------------------------------------
