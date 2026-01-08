@@ -24,6 +24,8 @@
 
 .seo-booster {
   font-size: 0.9rem;
+  text-align: justify;
+  text-align-last: left; /* Prevents the last line from being justified */
   line-height: 1.6;
   color: var(--muted);
   max-width: 70ch;
