@@ -30,7 +30,7 @@
   transition: all 0.2s ease;
 
   @media (max-width: 768px) {
-    width: 100%;          // full-width on mobile
+    width: 80%;          // full-width on mobile
     font-size: 1.05rem;   // slightly bigger tap target
   }
 }
