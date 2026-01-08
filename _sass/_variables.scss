@@ -13,3 +13,14 @@ $brand-kieron1: #32CD32;  // lime green
 $brand-kieron2: #FF00FF;  // neon pink
 $brand-kieron3: #00813D;  // subway green
 $brand-kieron4: #FFD100;  // subway yellow
+
+//  for index.html
+.container.hero {
+  padding: 2rem 1rem; // Vertical and horizontal padding (mobile)
+}
+
+@media (min-width: 768px) {
+  .container.hero {
+    padding: 3rem 2rem; // More padding on desktop
+  }
+}
