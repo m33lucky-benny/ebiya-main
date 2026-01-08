@@ -254,3 +254,9 @@ main a:not(.btn) {
 .contact-wrap > h2 {
   text-align: center;
 }
+
+.contact-intro p {
+  text-align: justify;
+  text-align-last: left; /* Prevents the last line from being justified */
+}
+
