@@ -1,65 +1,28 @@
 .cta-row {
   display: flex;
   gap: 1rem;
-  /*margin-top: 2rem;*/
+  width: 100%;
+  margin: 1rem 0;
 
-  /* Desktop */
-  flex-direction: row;
-  align-items: center;
+  /* Mobile first */
+  flex-direction: column;
 
-  @media (max-width: 768px) {
-    /* Mobile */
-    flex-direction: column;
+  .btn {
     width: 100%;
+    text-align: center;
+    padding: 0.75rem 1.5rem;
   }
-}
 
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    margin: 1.5rem 0;
 
-  padding: 0.6rem 1.25rem;
-  min-height: 48px;
-
-  font-size: 1rem;
-  font-weight: 600;
-  text-decoration: none;
-
-  border-radius: 8px; // modern pill
-  transition: all 0.2s ease;
-
-  @media (max-width: 768px) {
-    width: 80%;
-    font-size: 1.05rem;
-  }
-}
-
-/* 🔥 Primary CTA */
-.btn-primary {
-  background: var(--primary);
-  color: var(--dark1);
-
-  box-shadow: 0 6px 20px rgba(255, 16, 240, 0.35);
-
-  &:hover {
-    background: var(--secondary);
-    transform: translateY(-1px);
-    box-shadow: 0 10px 28px rgba(255, 0, 110, 0.45);
-  }
-}
-
-/* ✨ Secondary / Ghost CTA */
-.btn-ghost {
-  background: transparent;
-  color: var(--primary);
-
-  border: 2px solid rgba(255, 16, 240, 0.45);
-
-  &:hover {
-    background: rgba(255, 16, 240, 0.08);
-    border-color: var(--primary);
-    color: var(--text);
+    .btn {
+      flex: 1;
+      max-width: 280px;
+    }
   }
 }
 
@@ -68,35 +31,5 @@
 
   .cta-row {
     justify-content: center;
-  }
-}
-
-.cta-row {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 100%;
-  margin-top: 1rem; // Reduce top spacing
-  margin-bottom: 1rem; // Reduce bottom spacing
-}
-
-.cta-row .btn {
-  width: 100%;
-  text-align: center;
-  padding: 0.75rem 1.5rem;
-}
-
-@media (min-width: 768px) {
-  .cta-row {
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    margin-top: 1.5rem; // Slightly more on desktop if desired
-    margin-bottom: 1.5rem;
-  }
-  
-  .cta-row .btn {
-    flex: 1;
-    max-width: 280px;
   }
 }
