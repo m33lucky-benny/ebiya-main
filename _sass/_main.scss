@@ -14,6 +14,8 @@
 
 .hero-subtitle {
   font-size: 1.1rem;
+  text-align: justify;
+  text-align-last: left; /* Prevents the last line from being justified */
   line-height: 1.65;
   color: rgba(255, 255, 255, 0.85);
   max-width: 65ch;
