@@ -16,6 +16,9 @@
 
 .btn {
   width: 100%;
+  
+  border-radius: 8px;
+  transition: all 0.2s ease;
 }
 
 @media (min-width: 768px) {
@@ -59,24 +62,24 @@
   }
 }
 
-// // Ghost CTA button
-// .btn-ghost {
-//   background: transparent;
-//   color: var(--primary);
-//   border: 2px solid rgba(255, 16, 240, 0.45);
+// Ghost CTA button
+.btn-ghost {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid rgba(255, 16, 240, 0.45);
 
-//   &:hover {
-//     background: rgba(255, 16, 240, 0.08);
-//     border-color: var(--primary);
-//     color: var(--text);
-//   }
-// }
+  &:hover {
+    background: rgba(255, 16, 240, 0.08);
+    border-color: var(--primary);
+    color: var(--text);
+  }
+}
 
-// // Hero section specific styles
-// .hero {
-//   text-align: center;
+// Hero section specific styles
+.hero {
+  text-align: center;
 
-//   .cta-row {
-//     justify-content: center;
-//   }
-// }
+  .cta-row {
+    justify-content: center;
+  }
+}
