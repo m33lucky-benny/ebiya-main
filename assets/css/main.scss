@@ -261,8 +261,7 @@ main a:not(.btn) {
 }
 
 .hero-subtitle, .seo-booster {
-    width: 100%;
-    text-align: justify;
+  text-align: justify;
+  text-align-last: left; /* Prevents the last line from being justified */
 }
-
 
