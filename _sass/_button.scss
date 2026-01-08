@@ -30,8 +30,9 @@
 }
 
 .cta-row .btn {
-  min-width: 220px;
+  flex: 1 1 240px; /* grow | shrink | base */
   max-width: 280px;
+  text-align: center;
 }
 
 /* Ghost button (outlined) */
