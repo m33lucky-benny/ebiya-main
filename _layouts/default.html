@@ -5,7 +5,7 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <title>{{ page.title }} | {{ site.title }}</title> -->
+  <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
 </head>
 <body>
@@ -17,12 +17,18 @@
   {% endif %}
 
   {% include navbar.html %}
-
   <main>
-    <div class="container">
-      {{ content }}
-    </div>
-  </main>
+  <div class="container">
+
+    {% unless page.hide_title %}
+      {% if page.title %}
+        <h1 class="page-title">{{ page.title }}</h1>
+      {% endif %}
+    {% endunless %}
+
+    {{ content }}
+  </div>
+</main>
   {% include below-main-content.html %}
   {% include footer.html %}
 
