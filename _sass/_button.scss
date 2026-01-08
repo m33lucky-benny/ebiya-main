@@ -25,7 +25,11 @@
   flex-direction: column;
   gap: 1rem;
   width: 100%;
+  max-width: 1200px; // Limit max width
+  margin: 0 auto; // Center it
+  padding: 0 1rem; // Side padding
 }
+
 
 .cta-row .btn {
   width: 100%;
