@@ -18,3 +18,19 @@
   color: inherit; /* or specify a color like #2d3748 */
 }
 
+/* CTA row layout */
+.cta-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.cta-row .btn {
+  min-width: 220px;
+  max-width: 280px;
+}
+
