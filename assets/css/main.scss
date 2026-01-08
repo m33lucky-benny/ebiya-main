@@ -266,34 +266,3 @@ main a:not(.btn) {
   text-align-last: left; /* Prevents the last line from being justified */
 }
 
-.hero {
-  background: #ffffff
-  padding: 3rem 2rem;
-  text-align: center;
-}
-
-.hero-title {
-  font-size: 2.25rem;
-  font-weight: 500;
-  line-height: 1.25;
-  margin: 0 0 1.25rem 0;
-  color: var(--text);
-}
-
-.hero-subtitle {
-  font-size: 1.1rem;
-  line-height: 1.65;
-  color: rgba(255, 255, 255, 0.85);
-  max-width: 65ch;
-  margin: 0 auto 2rem;
-}
-
-.seo-booster {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  color: var(--muted);
-  max-width: 70ch;
-  margin: 3rem auto 0;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border);
-}
